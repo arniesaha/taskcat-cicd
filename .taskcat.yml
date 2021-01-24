@@ -1,5 +1,5 @@
 project:
-  name: quickstart-amazon-eks
+  name: qs-eks
   owner: quickstart-eng@amazon.com
   shorten_stack_name: true
   regions:
