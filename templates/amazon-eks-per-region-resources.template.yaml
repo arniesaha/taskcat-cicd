@@ -203,7 +203,6 @@ Resources:
       LayerName: !Sub ['${Prefix}-Crhelper', {Prefix: !FindInMap [Config, Prefix, Value]}]
       Description: !Sub "crhelper layer - ${RandomStr}"
       CompatibleRuntimes:
-        - python3.6
         - python3.7
       Content:
         S3Bucket: !Ref LambdaZipsBucket
